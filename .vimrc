@@ -1,6 +1,7 @@
 call plug#begin()
 
 Plug 'preservim/nerdtree'
+Plug 'zacanger/angr.vim'
 Plug 'tmhedberg/SimpylFold'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'vim-syntastic/syntastic'
@@ -51,7 +52,7 @@ if has('gui_running')
   set background=dark
   colorscheme solarized
 else
-  colorscheme zenburn
+  colorscheme angr
 endif
 
 call togglebg#map("<F5>")
