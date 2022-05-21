@@ -1,6 +1,6 @@
 # vim
 
-1. Add https://github.com/junegunn/vim-plug
+1. Add https://github.com/junegunn/vim-plug to ~/.vim/autoload
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
