@@ -8,3 +8,4 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 
 2. Put the .vimrc in ~
+3. run install by doing :PlugInstall
